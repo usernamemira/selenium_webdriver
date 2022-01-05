@@ -24,6 +24,7 @@ public class Topic_01_Check_Environment {
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
+		//test
 	}
 
 	@Test
